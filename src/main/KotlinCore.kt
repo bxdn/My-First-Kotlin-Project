@@ -1,7 +1,10 @@
 package main
 
 class KotlinCore {
-    fun main() {
-        print("HELLO WORLD!!!")
+    companion object {
+        @JvmStatic
+        fun main() {
+            print("HELLO WORLD!!!")
+        }
     }
 }
